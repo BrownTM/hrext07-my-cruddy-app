@@ -15,7 +15,7 @@ Create Read Update and Delete framework using JS
 - [ ] Item that I added goes here...
 
 
-##Ideas
+## Ideas
 - [ ] Puzzle/Riddle that unlocks secret diary/blog  -- Favorite idea
 		- Wrong number of clicks results in reset
 		- Login and password protect
