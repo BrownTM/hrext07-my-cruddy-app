@@ -28,14 +28,29 @@ container for the response-feedback (start with alert)
 <div class="container-main">
   <header>My Cruddy App</header>
   <div class="container-form">
-    <input type="text" class="input-key" placeholder="enter key">
-    <input type="text" class="input-value" placeholder="enter value">
-    <button class="btn-add">Submit</button>
-    <button class="btn-update">Update</button>
-    <button class="btn-delete">Delete</button>
-    <button class="btn-clear">Clear</button>
+      <div class="btn-menu">
+        <header>Menu</header>
+        <button class="create">New Secret</button>
+        <button class="btn-home">Home</button>
+        <!-- <button class="btn-delete">Delete</button> -->
+        <button class="btn-clear">Clear</button>
+      </div>
+      <div class="center">
+        <div id="posting">
+          <div class="in-line">
+            <input type="text" class="input-key" placeholder="Title">
+            <button class="btn-add">Add Secret</button>
+          </div>
+          <textarea type="text" class="input-value" placeholder="Secret entry" rows="35"></textarea>
+        </div>
+        <div id="container-data">
+          <div class="home-page">
+          </div>
+          <div id="individual-post">
+          </div>
+        </div>
+      </div>
   </div>
-  <div class="container-data"></div>
 </div>
 
 </body>

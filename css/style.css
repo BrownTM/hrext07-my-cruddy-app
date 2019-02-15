@@ -1,0 +1,67 @@
+.container-form {
+	display: flex;
+	flex-direction: row;
+}
+
+.btn-menu {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 20%;
+	height: 30%;
+	border-style: solid;
+}
+
+.center {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	height: 30%;
+	padding-left: 20px;
+}
+
+#posting {
+	display: none;
+	flex-direction: column;
+	padding-left: 10px;
+	border-style: black;
+	border-width: thin;
+}
+
+.in-line {
+	display: flex;
+	flex-direction: row;
+}
+
+.input-key {
+	width: 80%;
+}
+
+.btn-add {
+	width: 20%;
+	text-align: center;
+}
+
+textarea {
+	resize: none;
+}
+
+#container-data {
+	display: none;
+	flex-direction: column;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.post {
+	border: thin;
+  text-align: left;
+}
+
+#individual-post {
+  display: none;
+}
